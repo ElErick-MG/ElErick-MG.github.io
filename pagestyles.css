@@ -1,0 +1,25 @@
+body{
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: midnightblue;
+}
+
+/* Estilos para la foto de perfil */
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+/* Efecto hover (cuando pasas el mouse sobre la imagen) */
+.foto-perfil:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+} 
+
+
+
